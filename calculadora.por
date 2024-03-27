@@ -4,7 +4,8 @@ programa
 	funcao inicio()
 	{
 		
-	inteiro num1, num2, op
+	inteiro op
+	real num1, num2
 	inteiro continuar = 0
 	
 	escreva("Bem vindo à calculadora\n")
@@ -29,19 +30,19 @@ programa
 	
 	se (op == 1) {
 		limpa()
-		inteiro resultado = num1 + num2
+		real resultado = num1 + num2
 		escreva("O resultado da adição de " + num1 + " por " + num2 + " é: " + resultado)
 	} senao se (op == 2) {
 		limpa()
-		inteiro resultado = num1 - num2
+		real resultado = num1 - num2
 		escreva("O resultado da subtração de " + num1 + " por " + num2 + " é: " + resultado)
 	} senao se (op == 3) {
 		limpa()
-		inteiro resultado = num1 * num2
+		real resultado = num1 * num2
 		escreva("O resultado da multiplicação de " + num1 + " por " + num2 + " é: " + resultado)
 	} senao se (op == 4) {
 		limpa()
-		inteiro resultado = num1 / num2
+		real resultado = num1 / num2
 		escreva("O resultado da divisão de " + num1 + " por " + num2 + " é: " + resultado)
 	} 
 
@@ -58,3 +59,14 @@ programa
 	
 	}
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 1048; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
